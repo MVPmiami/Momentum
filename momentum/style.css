@@ -13,11 +13,14 @@ body {
   text-align: center;
   height: 100vh;
   background-size: cover;
-  color: #000000;
+  color: #ebc26b;
 }
 
 .time {
   font-size: 8rem;
+}
+.date{
+  font-size: 2rem;
 }
 
 h1 {
@@ -26,11 +29,56 @@ h1 {
 
 h2 {
   margin-bottom: 0.5rem;
-  opacity: 0.8;
 }
 
+.change-image-button{
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  font-family: 'Quicksand', sans-serif;
+  color: #ebc26b;
+  border: none;
+  background-color: rgb(90, 85, 85);
+  font-size: 17px;
+}
+.change-image-button:hover{
+  cursor: pointer;
+  background-color: rgb(134, 125, 125);
+}
+.change-image-button:active{
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.quote-of-the-day{
+  padding: 10px;
+  margin-top: 30px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.change-quote{
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  font-family: 'Quicksand', sans-serif;
+  color: #ebc26b;
+  border: none;
+  background-color: rgb(90, 85, 85);
+  font-size: 17px;
+}
+.change-image-button:hover{
+  cursor: pointer;
+  background-color: rgb(134, 125, 125);
+}
+.change-image-button:active{
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
 @media (max-width: 700px) {
   .time {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
